@@ -14,12 +14,14 @@
 header {
     background-color: #5535C5;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     }
 
 header h1 {
     font-weight: bold;
     font-size: 30px;
-    display: inline;
     color: ghostwhite;
 }
 
@@ -29,16 +31,16 @@ header a {
 }
 
 header nav {
-    float: right;
     margin: 7px 0;
   }
-  
-header nav ul li {
-    display: inline;
+
+  header nav ul {
+      display: flex;
+      list-style-type: none;
   }
   
 header nav ul li a {
-    margin: 0 30px;
+    margin: 0px 30px;
     font-weight: lighter;
     font-size: 22px;
   }
@@ -62,6 +64,8 @@ header nav ul li a {
     color:red;
     margin:20px;
     font-family: garamond, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
   }
 
   /* About Styles */
@@ -69,6 +73,7 @@ header nav ul li a {
     padding: 20px;
     color:ghostwhite;
     background-color: #2E44C8;
+    display: flex;
 }
 
  /* Work Styles */
@@ -76,6 +81,57 @@ header nav ul li a {
     padding: 20px;
     color:ghostwhite;
     background-color: #7C27C2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work h2 {
+    margin-right: 30px;
+}
+
+.work h3 {
+    padding: 5px;
+    width: 200px;
+    background-color: slateblue;
+}
+
+.work h4 {
+    padding: 5px;
+    width: 200px;
+    background-color: slateblue;
+}
+
+.run-buddy {
+    margin: 20px;
+    color: lightskyblue;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column-reverse;
+    background-image: url('../images/run-buddy-screen.png');
+}
+
+.storied-stuff {
+    margin: 20px;
+    color: lightskyblue;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column-reverse;
+    background-image: url('../images/storied-stuff-screen.png');
+}
+
+.horiseon {
+    margin: 20px;
+    color: lightskyblue;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column-reverse;
+    background-image: url('../images/horiseon-screen.png');
 }
 
 /* Contact Styles */
@@ -83,4 +139,5 @@ header nav ul li a {
     padding: 20px;
     color:black;
     background-color: #CA09BC;
+    display: flex;
 }
