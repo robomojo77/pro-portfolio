@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+/* Header Styles */
+
+header {
+    background-color: #5535C5;
+    padding: 20px;
+    }
+
+header h1 {
+    font-weight: bold;
+    font-size: 30px;
+    display: inline;
+    color: ghostwhite;
+}
+
+header a {
+    text-decoration: none;
+    color:ghostwhite;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  
+header nav ul li {
+    display: inline;
+  }
+  
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+
+/* Hero Styles */
+.hero {
+    background-image: url('../images/hero-background.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 600px;
+  }
+
+  .hero h2 {
+    float: right;
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color:red;
+    margin:20px;
+    font-family: garamond, 'Times New Roman', Times, serif;
+  }
+
+  /* About Styles */
+.about {
+    padding: 20px;
+    color:ghostwhite;
+    background-color: #2E44C8;
+}
+
+ /* Work Styles */
+ .work {
+    padding: 20px;
+    color:ghostwhite;
+    background-color: #7C27C2;
+}
+
+/* Contact Styles */
+.contact {
+    padding: 20px;
+    color:black;
+    background-color: #CA09BC;
+}
