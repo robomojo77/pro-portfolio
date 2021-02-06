@@ -152,6 +152,17 @@ header nav ul li a {
     background-image: url('../images/horiseon-screen.png');
 }
 
+.happy-hour {
+    margin: 20px;
+    color: lightskyblue;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column-reverse;
+    background-image: url('../images/happy-hour-screen.png');
+}
+
 /* Contact Styles */
 .contact {
     padding: 20px;
